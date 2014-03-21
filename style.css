@@ -1,0 +1,310 @@
+#tabl {
+ border-collapse:collapse;
+ }
+#td {
+ border:1px solid black;
+  text-align:center;
+ }
+ #th{
+ background-color: #D0E3FA;
+  border:1px solid black;
+ }
+
+.banniere {
+	background-image: url(images/banniere.jpg);
+}
+
+table.sample {
+	border-width: 1px;
+	border-spacing: 3px;
+	border-style: dotted;
+	border-color: blue;
+	border-collapse: collapse;
+}
+ a:link { text-decoration:none; font-weight:bold; color:#E00000; }
+ a:visited { text-decoration:none; font-weight:bold; color:#800000; }
+ a:hover { text-decoration:none; font-weight:bold; background-color:#FFFF00; }
+ a:active { text-decoration:none; font-weight:bold; background-color:#CCFFFF; }
+ 
+table.sample th {
+
+	border-width: thin;
+	padding: 3px;
+	border-style: double;
+	border-color: blue;
+	-moz-border-radius: ;
+}
+table.sample td {
+    text-align: center;
+	border-width: thin;
+	padding: 3px;
+	border-style: double;
+	border-color: blue;
+	-moz-border-radius: ;
+}
+.boutton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	width: 150px;
+	background-image: url(images/boutton%20ajout.jpg);
+	text-align: center;
+	font-size: 12px;
+}
+.click {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	width: 150px;
+	background-image: url(images/boutton%20click.jpg);
+	text-align: center;
+	font-size: 12px;
+}
+
+a.caseh
+{
+display:block;
+}
+
+p {
+text-align:justifi�;
+color : #7777ff;
+margin-left:5px;
+margin-right:5px;
+padding-left:5px;
+padding-right:5px;
+}
+
+body{
+	background-image: url(images/fond.jpg);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	
+}
+
+#form2 {
+	height: 100%;
+} 
+#ajoutpatient fieldset{
+	margin-left:50px;
+	margin-right:50px;
+	border:1px solid #ccc;
+} 
+#ajoutpatient fieldset:hover{
+color:#;
+} 
+#ajoutpatient fieldset legend{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:1px;
+	padding-left:1px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+}
+
+#ajoutpatient label {
+	display :block;
+	width:25%;
+	float: left;
+	padding-right: 1%;
+	text-align:right;
+ } 
+
+#ajoutpatient .form_label_nostyle {
+background: none;
+}
+
+#ajoutpatient input{
+	width:25%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+} 
+#ajoutpatient #jour {
+	width:5%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+}
+#ajoutpatient #mois {
+	width:5%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+}
+#ajoutpatient #annee {
+	width:8%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+}
+#ajoutpatient #specialite {
+	width:15%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+}
+#ajoutpatient #nommedecin{
+	width:15%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+}
+
+#ajoutpatient #situation {
+	width:10%;
+	margin-left:2%;
+	border:1px solid #CCC;
+	margin-right: 2px;
+}
+
+#ajoutpatient input:hover{
+background:#DDEEFF;
+}
+#ajoutpatient input:focus{
+border: 1px solid #999 ;
+}
+#ajoutpatient input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#ajoutpatient input[type="submit"]:hover{
+	background-color: #00CCCC;
+	cursor: pointer;
+}
+#ajoutpatient input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#ajoutpatient input[type="reset"]:hover {
+	background-color: #33CCFF;
+	cursor: pointer;
+}
+
+
+#ajoutpatient {
+	height: 80%;
+} 
+#form2 fieldset{
+
+	margin-left:1px;
+	margin-right:1px;
+	border:1px solid #ccc;
+} 
+#form2 fieldset:hover{
+color:#;
+} 
+#form2 fieldset legend{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:1px;
+	padding-left:1px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+}
+#form2 label {
+	display :block;
+	width:100%;
+	float: left;
+	letter-spacing:1px;
+	padding-right: 1%;
+	text-align:left;
+	background-color: #FFFFFF;
+ } 
+
+#form2 .form_label_nostyle {
+background: none;
+}
+#form2 input{
+	width:80%;
+	margin-left:1%;
+	margin-top:1px;
+	border:1px solid #CCC;
+}
+
+#form2 input:hover{
+background:#DDEEFF;
+}
+#form2 input:focus{
+border: 1px solid #999 ;
+}
+#form2 input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 100%;
+}
+#form2 input[type="submit"]:hover{
+	background-color: #00CCCC;
+	cursor: pointer;
+}
+.recherche {
+	background-position: left top;
+	position: static;
+}
+#authentification {
+	text-align: center;
+	margin: 50px;
+	padding: 50px;
+	height: 500px;
+	width: 800px;
+}
+
+#authentification label{
+	display :block;
+	width:30%;
+	float: left;
+	letter-spacing:1px;
+	padding-right: 5%;
+	text-align:left;
+	margin-left:10%;
+	margin-right:1%;
+}
+
+#authentification fieldset{
+	margin-left:10px;
+	margin-right:10px;
+	border:1px solid #ccc;
+} 
+#authentification fieldset:hover{
+color:#;
+} 
+#authentification fieldset legend{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-right:3px;
+	padding-left:3px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+}
+
+#authentification input{
+	width:30%;
+	margin-left:1%;
+	margin-right:5%;
+	margin-top:1px;
+	border:1px solid #CCC;
+}
+#authentification input[type="submit"]{
+align:center;
+border: 1px solid #DDEEFF;
+width: 40%;
+}
+#authentification input[type="submit"]:hover{
+	background-color: #00CCCC;
+	cursor: pointer;
+}
+.tabmenu {
+	margin: 2px;
+	padding: 2px;
+	margin-left:5px;
+}
+.tabfond {
+	text-align: center;
+}
+.tablesynthese {
+	background-color: #FFFFFF;
+	letter-spacing: 1px;
+	text-align: center;
+	vertical-align: bottom;
+	word-spacing: normal;
+	height: auto;
+	width: auto;
+	border: thin double #3366FF;
+}

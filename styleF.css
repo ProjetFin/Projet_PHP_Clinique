@@ -1,0 +1,422 @@
+p {
+background: #EEEEEE ;
+text-align:justifié;
+color : #777777;
+margin-left:50px;
+margin-right:50px;
+padding-left:10px;
+padding-right:10px;
+}
+
+h2 {
+font-size:30px;
+background:#999999;
+font-style: gras;
+color:#FFFFFF;
+margin-left:50px;
+margin-right:50px;
+padding-left:10px;
+padding-right:10px;
+}
+
+a{
+color:black;
+}
+
+a:visited{
+color:gren;
+}
+
+a:hover{
+color:red;
+}
+
+span{
+color:#101d27;
+background:#E6EAF3;
+font-family:Courier;
+size:1px;
+border-bottom: solid;
+border-top:solid;
+border-color:#013C80;
+}
+
+body{
+background:#FAFAFA;
+}
+
+
+#ajoutC { 
+height: 60%;
+} 
+#ajoutC fieldset{ 
+margin-left:100px;
+margin-right:100px;
+border:1px solid #ccc;
+
+} 
+#ajoutC fieldset:hover{
+color:#;
+} 
+#ajoutC fieldset legend{
+padding-top:5px; 
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+border-left:1px solid #999 ;
+border-right:1px solid #999 ;
+}
+#ajoutC label {
+ background:#FFCC66;
+ display :block;
+ width:39%;
+ float: left;
+ letter-spacing:1px;
+ padding-right: 1%;
+ text-align:right;
+ } 
+
+#ajoutC .form_label_nostyle {
+background: none;
+}
+#ajoutC input{
+width:58%;
+margin-left:1%;
+margin-top:1px;
+border:1px solid #CCC;
+} 
+#ajoutC input:hover{
+background:#DDEEFF;
+}
+#ajoutC input:focus{
+border: 1px solid #999 ;
+}
+#ajoutC input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#ajoutC input[type="submit"]:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+#ajoutC input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#ajoutC input[type="reset"]:hover {
+background-color: #E6484D;
+cursor: pointer;
+}
+
+
+#afficherC { 
+height: 60%;
+} 
+#afficherC fieldset{ 
+margin-left:100px;
+margin-right:100px;
+border:1px solid #ccc;
+
+} 
+#afficherC fieldset:hover{
+color:#;
+} 
+#afficherC fieldset legend{
+padding-top:5px; 
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+border-left:1px solid #999 ;
+border-right:1px solid #999 ;
+}
+#afficherC label {
+ background:#FFCC66;
+ display :block;
+ width:39%;
+ float: left;
+ letter-spacing:1px;
+ padding-right: 1%;
+ text-align:right;
+ } 
+
+#afficherC .form_label_nostyle {
+background: none;
+}
+#afficherC input{
+width:58%;
+margin-left:1%;
+margin-top:1px;
+border:1px solid #CCC;
+} 
+#afficherC input:hover{
+background:#DDEEFF;
+}
+#afficherC input:focus{
+border: 1px solid #999 ;
+}
+#afficherC input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#afficherC input[type="submit"]:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+#afficherC input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#afficherC input[type="reset"]:hover {
+background-color: #E6484D;
+cursor: pointer;
+}
+
+
+#suprC{ 
+height: 60%;
+} 
+#suprC fieldset{ 
+margin-left:100px;
+margin-right:100px;
+border:1px solid #ccc;
+
+} 
+#suprC fieldset:hover{
+color:#;
+} 
+#suprC fieldset legend{
+padding-top:5px; 
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+border-left:1px solid #999 ;
+border-right:1px solid #999 ;
+}
+#suprC label {
+ background:#FFCC66;
+ display :block;
+ width:39%;
+ float: left;
+ letter-spacing:1px;
+ padding-right: 1%;
+ text-align:right;
+ } 
+
+#suprC .form_label_nostyle {
+background: none;
+}
+#suprC input{
+width:58%;
+margin-left:1%;
+margin-top:1px;
+border:1px solid #CCC;
+} 
+#suprC input:hover{
+background:#DDEEFF;
+}
+#suprC input:focus{
+border: 1px solid #999 ;
+}
+#suprC input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#suprC input[type="submit"]:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+#suprC input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#suprC input[type="reset"]:hover {
+background-color: #E6484D;
+cursor: pointer;
+}
+
+
+#rechC{ 
+height: 60%;
+} 
+#rechC fieldset{ 
+margin-left:100px;
+margin-right:100px;
+border:1px solid #ccc;
+
+} 
+#rechC fieldset:hover{
+color:#;
+} 
+#rechC fieldset legend{
+padding-top:5px; 
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+border-left:1px solid #999 ;
+border-right:1px solid #999 ;
+}
+#rechC label {
+ background:#FFCC66;
+ display :block;
+ width:39%;
+ float: left;
+ letter-spacing:1px;
+ padding-right: 1%;
+ text-align:right;
+ } 
+ 
+#rechC .form_label_nostyle {
+background: none;
+}
+#rechC input{
+width:58%;
+margin-left:1%;
+margin-top:1px;
+border:1px solid #CCC;
+} 
+#rechC input:hover{
+background:#DDEEFF;
+}
+#rechC input:focus{
+border: 1px solid #999 ;
+}
+#rechC input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#rechC input[type="submit"]:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+#rechC input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#rechC input[type="reset"]:hover {
+background-color: #E6484D;
+cursor: pointer;
+}
+
+
+#resultat{ 
+height: 60%;
+} 
+#resultat fieldset{ 
+margin-left:100px;
+margin-right:100px;
+border:1px solid #ccc;
+
+} 
+#resultat fieldset:hover{
+color:#;
+} 
+#resultat fieldset legend{
+padding-top:5px; 
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+border-left:1px solid #999 ;
+border-right:1px solid #999 ;
+}
+#resultat label {
+ background:#FFCC66;
+ display :block;
+ width:39%;
+ float: left;
+ letter-spacing:1px;
+ padding-right: 1%;
+ text-align:right;
+ } 
+#resultat .form_label_nostyle {
+background: none;
+}
+#resultat input{
+width:58%;
+margin-left:1%;
+margin-top:1px;
+border:1px solid #CCC;
+} 
+#resultat input:hover{
+background:#DDEEFF;
+}
+#resultat input:focus{
+border: 1px solid #999 ;
+}
+#resultat input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#resultat input[type="submit"]:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+#resultat input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#resultat input[type="reset"]:hover {
+background-color: #E6484D;
+cursor: pointer;
+}
+
+
+#form1{ 
+height: 60%;
+} 
+#form1 fieldset{ 
+margin-left:100px;
+margin-right:100px;
+border:1px solid #ccc;
+
+} 
+#form1 fieldset:hover{
+color:#;
+} 
+#form1 fieldset legend{
+padding-top:5px; 
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+border-left:1px solid #999 ;
+border-right:1px solid #999 ;
+}
+#form1 label {
+ background:#FFCC66;
+ display :block;
+ width:39%;
+ float: left;
+ letter-spacing:1px;
+ padding-right: 1%;
+ text-align:right;
+ } 
+#form1 .form_label_nostyle {
+background: none;
+}
+#form1 input{
+width:58%;
+margin-left:1%;
+margin-top:1px;
+border:1px solid #CCC;
+} 
+#form1 input:hover{
+background:#DDEEFF;
+}
+#form1 input:focus{
+border: 1px solid #999 ;
+}
+#form1 input[type="submit"]{
+border: 1px solid #DDEEFF;
+width: 20%;
+}
+#form1 input[type="submit"]:hover{
+background-color: #66CC33;
+cursor: pointer;
+}
+#form1 input[type="reset"] {
+border:1px solid #DDEEFF;
+width:20%;
+ }
+#form1 input[type="reset"]:hover {
+background-color: #E6484D;
+cursor: pointer;
+}
